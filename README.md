@@ -52,7 +52,7 @@ This tool calculates a trend strength score ranging from -1 (strong Bear) to +1 
 Navigate to the directory containing the scripts:
 
 ```bash
-cd /path/to/hope/
+cd /path/to/project/
 ```
 
 Basic usage:
@@ -110,7 +110,7 @@ The script outputs:
 
 ```bash
 # First, navigate to the directory containing the scripts
-cd /path/to/hope/
+cd /path/to/project/
 
 # Then run the analysis
 python market_trend_strength.py --symbol AAPL --start 2022-01-01
@@ -127,7 +127,7 @@ This will:
 
 ```bash
 # Navigate to the script directory
-cd /path/to/hope/
+cd /path/to/project/
 
 # Run in quiet mode for production use
 python run_market_trend.py --symbol TSLA --start 2023-01-01 --output tesla_trends.csv --quiet
@@ -141,7 +141,7 @@ This will perform the analysis with minimal output, showing only the final resul
 
 1. **"No such file or directory" error**:
    - Make sure you're running the script from the correct directory
-   - Use `cd /path/to/hope/` to navigate to the directory containing the scripts
+   - Use `cd /path/to/project/` to navigate to the directory containing the scripts
 
 2. **API Key errors**:
    - Ensure your `.env` file is in the same directory as the scripts
